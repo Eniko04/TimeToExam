@@ -1,4 +1,9 @@
 package Factory;
 
-public class EasyTask {
+class EasyTask implements Task {
+
+    @Override
+    public void solve() {
+        System.out.println("Получена е лесна задача.");
+    }
 }
